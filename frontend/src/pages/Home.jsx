@@ -80,9 +80,9 @@ const Home = () => {
           className="mb-12"
         >
           <h2 className="font-heading text-4xl md:text-5xl text-white mb-4" data-testid="services-title">
-            I Nostri Servizi
+            {t('home.ourServices')}
           </h2>
-          <p className="text-lg text-slate-400">Tutto ciò di cui hai bisogno per una crociera perfetta</p>
+          <p className="text-lg text-slate-400">{t('home.servicesSubtitle')}</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-20" data-testid="quick-links-grid">
