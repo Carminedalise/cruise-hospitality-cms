@@ -7,38 +7,39 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { motion } from 'framer-motion';
 
-const quickLinks = [
-  {
-    title: 'Ristoranti & Bar',
-    description: 'Scopri i nostri 4 ristoranti gourmet',
-    icon: Utensils,
-    path: '/restaurants',
-    gradient: 'from-amber-500/20 to-orange-500/20',
-  },
-  {
-    title: 'Escursioni',
-    description: 'Avventure indimenticabili',
-    icon: Ship,
-    path: '/excursions',
-    gradient: 'from-blue-500/20 to-cyan-500/20',
-  },
-  {
-    title: 'Intrattenimento',
-    description: 'Spettacoli e musica dal vivo',
-    icon: Music,
-    path: '/entertainment',
-    gradient: 'from-purple-500/20 to-pink-500/20',
-  },
-  {
-    title: 'Servizi',
-    description: 'Assistenza e informazioni',
-    icon: HelpCircle,
-    path: '/services',
-    gradient: 'from-green-500/20 to-emerald-500/20',
-  },
-];
-
 const Home = () => {
+  const { t } = useLanguage();
+
+  const quickLinks = [
+    {
+      title: t('home.restaurantsTitle'),
+      description: t('home.restaurantsDesc'),
+      icon: Utensils,
+      path: '/restaurants',
+      gradient: 'from-amber-500/20 to-orange-500/20',
+    },
+    {
+      title: t('home.excursionsTitle'),
+      description: t('home.excursionsDesc'),
+      icon: Ship,
+      path: '/excursions',
+      gradient: 'from-blue-500/20 to-cyan-500/20',
+    },
+    {
+      title: t('home.entertainmentTitle'),
+      description: t('home.entertainmentDesc'),
+      icon: Music,
+      path: '/entertainment',
+      gradient: 'from-purple-500/20 to-pink-500/20',
+    },
+    {
+      title: t('home.servicesTitle'),
+      description: t('home.servicesDesc'),
+      icon: HelpCircle,
+      path: '/services',
+      gradient: 'from-green-500/20 to-emerald-500/20',
+    },
+  ];
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900" data-testid="home-page">
       <div
