@@ -42,6 +42,7 @@ const Home = () => {
   ];
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900" data-testid="home-page">
+      <LanguageSwitcher />
       <div
         className="relative h-[60vh] bg-cover bg-center"
         style={{
@@ -57,7 +58,7 @@ const Home = () => {
             className="font-heading text-6xl md:text-7xl lg:text-8xl font-medium text-white mb-6 tracking-tight"
             data-testid="hero-title"
           >
-            Benvenuto a Bordo
+            {t('home.welcome')}
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -66,8 +67,7 @@ const Home = () => {
             className="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed"
             data-testid="hero-subtitle"
           >
-            La tua esperienza di lusso inizia qui. Esplora ristoranti gourmet, escursioni esclusive e
-            intrattenimento di classe mondiale.
+            {t('home.subtitle')}
           </motion.p>
         </div>
       </div>
