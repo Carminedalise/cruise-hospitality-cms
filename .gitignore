@@ -1,12 +1,95 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# IDE and editors
-.idea/
-.vscode/
-
-# Dependencies
+# Dipendenze
 node_modules/
-/node_modules
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# File di build
+build/
+dist/
+*.egg-info/
+.next/
+out/
+
+# File di ambiente (IMPORTANTI - NON CARICARE!)
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+frontend/.env
+
+# IDE e editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+*.bak
+
+# Test e coverage
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# Database locale
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+.ruff_cache/
+.eslintcache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets e chiavi (CRITICI - MAI CARICARE!)
+secrets/
+*.pem
+*.key
+*.cert
+credentials.json
+service-account.json
+
+# ========================================
+# GUIDE PERSONALI - NON SU GITHUB
+# ========================================
+GUIDA_GITHUB_PASSO_PASSO.md
+COSA_VA_SU_GITHUB.md
+COME_SALVARE_SU_GITHUB.md
+PRESENTAZIONE_PORTFOLIO.md
+guide_personali/
+*.backup.md
+
+# ========================================
+# FILE DA MANTENERE SU GITHUB:
+# - README.md (vetrina progetto)
+# - DEPLOYMENT.md (guida deploy)
+# - PROJECT_ARCHITECTURE.md (documentazione tecnica)
+# - GUIDA_APK_MOBILE.md (documentazione tecnica)
+# - LICENSE (licenza)
+# ========================================
+
+# Additional entries from original file
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -15,56 +98,18 @@ node_modules/
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
-# Testing
-/coverage
-
-# Next.js
-/.next/
-/out/
 next-env.d.ts
 *.tsbuildinfo
-
-# Production builds
-/build
-dist/
-dist
-
-# Environment files (comprehensive coverage)
-
 *token.json*
 *credentials.json*
-
-# Logs and debug files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 .pnpm-debug.log*
 dump.rdb
-
-# System files
-.DS_Store
-*.pem
-
-# Python
-__pycache__/
-*pyc*
-venv/
-.venv/
-
-# Development tools
 chainlit.md
 .chainlit
 .ipynb_checkpoints/
 .ac
-
-# Deployment
 .vercel
-
-# Data and databases
 agenthub/agents/youtube/db
-
-# Archive files and large assets
 **/*.zip
 **/*.tar.gz
 **/*.tar
@@ -72,26 +117,4 @@ agenthub/agents/youtube/db
 *.pack
 *.deb
 *.dylib
-
-# Build caches
-.cache/
-
-# Mobile development
-android-sdk/ frontend/node_modules/.cache/default-development/0.pack
--e 
-# Environment files
-*.env
-*.env.*
-frontend/node_modules/.cache/default-development/0.pack
--e 
-# Environment files
-*.env
-*.env.*
--e 
-# Environment files
-*.env
-*.env.*
--e 
-# Environment files
-*.env
-*.env.*
+android-sdk/frontend/node_modules/.cache/default-development/0.pack
