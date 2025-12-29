@@ -318,8 +318,8 @@ MIT License - feel free to use this project for your portfolio or commercial pur
 **Carmine Dalise**
 
 - Portfolio: [Your Portfolio URL]
-- GitHub: [@carmine-dalise](https://github.com/carmine-dalise)
-- LinkedIn: [Your LinkedIn]
+- GitHub: [@iacreatorcar](https://github.com/iacreatorcar)
+- LinkedIn: [Carmine D'Alise](https://www.linkedin.com/in/carmine-d-alise-3b25024b)
 - Email: your.email@example.com
 
 ---
