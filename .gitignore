@@ -71,8 +71,14 @@ credentials.json
 service-account.json
 
 # ========================================
-# GUIDE PERSONALI E FILE INTERNI - NON SU GITHUB
+# FILE INTERNI - NON SU GITHUB
 # ========================================
+
+# Cartelle Emergent (NASCONDERE!)
+.emergent/
+.gitconfig
+
+# Guide personali
 GUIDA_GITHUB_PASSO_PASSO.md
 COSA_VA_SU_GITHUB.md
 COME_SALVARE_SU_GITHUB.md
@@ -81,22 +87,25 @@ GUIDA_APK_MOBILE.md
 REPOSITORY_STRUCTURE.md
 ISTRUZIONI_RIMOZIONE_URGENTE.md
 guide_personali/
-*.backup.md
+guide_personali_backup/
+guide_personali_carmine.zip
 
-# File interni Emergent
-.emergent/
+# Script e file interni
 rimuovi_file_personali.sh
 design_guidelines.json
 backend_test.py
 test_result.md
 app.code-workspace
+*.backup.md
 
 # ========================================
-# FILE DA MANTENERE SU GITHUB:
-# - README.md (vetrina progetto)
-# - DEPLOYMENT.md (guida deploy)  
-# - PROJECT_ARCHITECTURE.md (documentazione tecnica)
-# - LICENSE (licenza)
+# SOLO QUESTI FILE SU GITHUB:
+# - README.md
+# - DEPLOYMENT.md (opzionale)
+# - PROJECT_ARCHITECTURE.md (opzionale)
+# - LICENSE
+# - backend/
+# - frontend/
 # ========================================
 
 # Additional entries from original file
