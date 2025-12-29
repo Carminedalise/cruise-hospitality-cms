@@ -1,8 +1,13 @@
 # 🚢 Cruise Ship Hospitality CMS
 
-> A comprehensive hospitality management system for cruise ships, featuring digital menus, excursion bookings, AI concierge, and IPTV kiosk mode.
+> Modern hospitality management platform for cruise ships with AI-powered assistance, digital menus, and seamless booking experience.
 
 ![Cruise Ship CMS](https://images.unsplash.com/photo-1761514745080-7cab3a9ad041?w=1200&h=400&fit=crop)
+
+[![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-5.0-green?logo=mongodb)](https://www.mongodb.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 🌟 Overview
 
