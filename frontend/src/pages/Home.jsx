@@ -4,6 +4,7 @@ import { Utensils, Ship, Music, HelpCircle, Wifi, ChevronRight } from 'lucide-re
 import { Navigation } from '@/components/Navigation';
 import { ChatBot } from '@/components/ChatBot';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
+import { Footer } from '@/components/Footer';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { motion } from 'framer-motion';
 
