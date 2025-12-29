@@ -1,6 +1,6 @@
 # 🚢 Cruise Ship Hospitality CMS
 
-> Modern hospitality management platform for cruise ships with AI-powered assistance, digital menus, and seamless booking experience.
+> Modern hospitality management platform for cruise ships with AI-powered concierge, digital menus, and seamless guest experience.
 
 ![Cruise Ship CMS](https://images.unsplash.com/photo-1761514745080-7cab3a9ad041?w=1200&h=400&fit=crop)
 
@@ -9,36 +9,34 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-5.0-green?logo=mongodb)](https://www.mongodb.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+---
+
 ## ✨ Features
 
-**🍽️ Digital Dining**
-- 4 Premium restaurants with dynamic menus (Ocean Blue, The Iron Grill, Sakura, Sunset Bar)
-- QR code generation for instant mobile access
-- Allergen information and multi-language support (IT/EN)
+### 🍽️ Digital Dining Experience
+- 4 Premium venues with dynamic digital menus
+- QR code generation for instant mobile access  
+- Allergen information & multi-language support (IT/EN)
 
-**🤖 AI Concierge**
-- Real-time assistance powered by OpenAI GPT-5.2
-- 24/7 guest support for reservations, services, and inquiries
+### 🤖 AI-Powered Concierge
+- Real-time guest assistance via OpenAI GPT-5.2
+- 24/7 availability for inquiries and bookings
 - Context-aware responses about ship facilities
 
-**🏝️ Excursion Booking**
-- Shore excursion catalog with detailed descriptions
-- Real-time booking system with instant confirmation
-- Date selection and party size management
+### 🏝️ Smart Booking System
+- Shore excursion catalog with detailed information
+- Instant booking confirmation
+- Date and party size management
 
-**🎭 Entertainment Hub**
+### 🎭 Entertainment & Services
 - Live show schedules and theater information
-- Event timing and venue details
-- Entertainment calendar
+- Guest services directory with locations and hours
+- Connectivity packages (Premium & Pro options)
 
-**📡 Connectivity Packages**
-- Premium (€19.99/24h) - 50 Mbps, HD streaming
-- Pro Full Cruise (€129.99) - 100 Mbps, 4K streaming, priority connection
-
-**🖥️ IPTV Kiosk Mode**
+### 🖥️ IPTV Kiosk Mode
 - Touch-optimized interface for public terminals
 - Large accessibility buttons
-- Idle screen with touch-to-start
+- Perfect for hotel TV integration
 
 ---
 
@@ -46,83 +44,73 @@
 
 **Frontend:** React 19 • Tailwind CSS • Framer Motion • Shadcn/UI  
 **Backend:** FastAPI • MongoDB • Motor (Async)  
-**AI:** OpenAI GPT-5.2 via Emergent Integrations  
-**Design:** Glassmorphism • "Midnight Ocean Luxury" theme
+**AI Integration:** OpenAI GPT-5.2  
+**Design:** Glassmorphism with "Midnight Ocean Luxury" theme
 
 ---
 
-## 📁 Project Structure
-
-```
-cruise-hospitality-cms/
-├── backend/          # FastAPI server, MongoDB models, AI integration
-├── frontend/         # React app, components, pages, i18n
-├── DEPLOYMENT.md     # Deployment guide
-└── README.md         # This file
-```
-
----
-
-## 🚀 Quick Start
+## 🚀 Getting Started
 
 ```bash
+# Clone repository
 git clone https://github.com/iacreatorcar/cruise-hospitality-cms.git
 cd cruise-hospitality-cms
 
-# Backend setup
-cd backend && pip install -r requirements.txt
-uvicorn server:app --reload
+# Backend
+cd backend && pip install -r requirements.txt && uvicorn server:app --reload
 
-# Frontend setup
-cd frontend && yarn install
-yarn start
+# Frontend  
+cd frontend && yarn install && yarn start
 ```
 
-Visit `http://localhost:3000` to see the application.
-
-> **Note:** Configure `.env` files in both backend and frontend directories with your credentials. See `.env.example` for reference.
+Visit `http://localhost:3000` • Configure environment variables in `.env` files
 
 ---
 
 ## 🎨 Design Philosophy
 
-The "Midnight Ocean Luxury" theme combines:
-- Deep navy backgrounds (#020617) with gold accents (#d4af37)
-- Glassmorphism effects with 24px backdrop blur
-- Playfair Display (headings) + Manrope (body) typography
-- Smooth 500ms transitions and micro-interactions
+Luxury cruise aesthetic featuring:
+- Deep navy (#020617) with gold accents (#d4af37)
+- Glassmorphism effects with 24px blur
+- Playfair Display + Manrope typography
+- Smooth micro-interactions
 
 ---
 
-## 🌐 Multi-Language
+## 🌐 Internationalization
 
-Full internationalization support:
 - 🇮🇹 Italian (Italiano)
-- 🇬🇧 English
+- 🇬🇧 English  
 
-Language switcher available on all pages.
+Seamless language switching on all pages.
+
+---
+
+## 📁 Structure
+
+```
+cruise-hospitality-cms/
+├── backend/          # FastAPI server, AI integration, MongoDB models
+├── frontend/         # React components, pages, i18n translations  
+└── README.md         # This file
+```
 
 ---
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License © 2025 - See [LICENSE](LICENSE) file
 
 ---
 
 ## 👨‍💻 Author
 
-**Carmine D'Alise**
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/carmine-d-alise-3b25024b)
-- 🐙 [GitHub](https://github.com/iacreatorcar)
+**Carmine D'Alise**  
+💼 [LinkedIn](https://www.linkedin.com/in/carmine-d-alise-3b25024b) • 🐙 [GitHub](https://github.com/iacreatorcar)
 
 ---
 
-## 🙏 Acknowledgments
-
-Built with [Emergent AI Platform](https://emergent.sh) • Design inspired by luxury cruise industry standards • Icons by [Lucide](https://lucide.dev)
-
----
-
-<p align="center">⚓ <em>Setting sail with the future of cruise ship hospitality</em> ⚓</p>
+<p align="center">
+  <em>Built with <a href="https://emergent.sh">Emergent AI Platform</a></em><br/>
+  ⚓ Setting sail with the future of cruise hospitality ⚓
+</p>
