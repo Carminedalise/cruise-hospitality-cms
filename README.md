@@ -76,3 +76,12 @@ MIT License © 2025
 ---
 
 <p align="center">⚓ <em>Luxury hospitality meets modern technology</em> ⚓</p>
+
+---
+
+## 🔗 Project Context & Ecosystem
+Questo CMS è una soluzione verticale progettata per l'industria crocieristica d'eccellenza. È catalogato come **Emergent App** all'interno del mio hub professionale:
+
+> **The Bridge Portfolio:** [the-bridge-portfolio.vercel.app](https://the-bridge-portfolio.vercel.app)
+
+---
